@@ -1,0 +1,70 @@
+let randomNumber1 = Math.floor(Math.random()*10)+1;
+let randomNumber2 = Math.floor(Math.random()*10)+1;
+let randomNumber3 = Math.floor(Math.random()*10)+1;
+let credits = 0
+/*if (credits >= 1){ //Must finish the bracket at the end.*/
+  console.log('Your spin is')
+    switch (randomNumber1){
+      case 1 : randomNumber1 ='Cherry';
+        break;
+      case 2 : randomNumber1 ='King';
+        break;
+      case 3 : randomNumber1 ='Queen';
+        break;
+      case 4 : randomNumber1 ='Jack';
+        break;
+      case 5 : randomNumber1 ='Ten';
+        break;
+      case 6 : randomNumber1 ='Bar';
+        break;
+      case 7 : randomNumber1 ='Horseshoe';
+        break;
+      case 8 : randomNumber1 ='Joker';
+        break;
+      case 9 : randomNumber1 ='Sword';
+        break;
+      case 10 : randomNumber1 ='Shield'; 
+}
+  switch (randomNumber2){
+      case 1 : randomNumber2 ='Cherry';
+        break;
+      case 2 : randomNumber2 ='King';
+        break;
+      case 3 : randomNumber2 ='Queen';
+        break;
+      case 4 : randomNumber2 ='Jack';
+        break;
+      case 5 : randomNumber2 ='Ten';
+        break;
+      case 6 : randomNumber2 ='Bar';
+        break;
+      case 7 : randomNumber2 ='Horseshoe';
+        break;
+      case 8 : randomNumber2 ='Joker';
+        break;
+      case 9 : randomNumber2 ='Sword';
+        break;
+      case 10 : randomNumber2 ='Shield'; 
+}
+  switch (randomNumber3){
+      case 1 : randomNumber3 ='Cherry';
+        break;
+      case 2 : randomNumber3 ='King';
+        break;
+      case 3 : randomNumber3 ='Queen';
+        break;
+      case 4 : randomNumber3 ='Jack';
+        break;
+      case 5 : randomNumber3 ='Ten';
+        break;
+      case 6 : randomNumber3 ='Bar';
+        break;
+      case 7 : randomNumber3 ='Horseshoe';
+        break;
+      case 8 : randomNumber3 ='Joker';
+        break;
+      case 9 : randomNumber3 ='Sword';
+        break;
+      case 10 : randomNumber3 ='Shield'; 
+}
+console.log(randomNumber1 +' '+ randomNumber2 +' '+ randomNumber3);
