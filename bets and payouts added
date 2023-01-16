@@ -1,0 +1,125 @@
+console.log('8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888')
+let bet = 0;
+let randomNumber1 = Math.floor(Math.random()*10)+1;
+let randomNumber2 = Math.floor(Math.random()*10)+1;
+let randomNumber3 = Math.floor(Math.random()*10)+1;
+let winnings = 0;
+let payout1 = 0;
+let payout2 = 0;
+let payout3 = 0;
+let payout4 = 0;
+if (bet >= 1){ //Must finish the bracket at the end.*/
+  console.log('Your spin is')
+    switch (randomNumber1){
+      case 1 : randomNumber1 ='Cherry';
+        break;
+      case 2 : randomNumber1 ='King';
+        break;
+      case 3 : randomNumber1 ='Queen';
+        break;
+      case 4 : randomNumber1 ='Jack';
+        break;
+      case 5 : randomNumber1 ='Ten';
+        break;
+      case 6 : randomNumber1 ='Bar';
+        break;
+      case 7 : randomNumber1 ='Horseshoe';
+        break;
+      case 8 : randomNumber1 ='Joker';
+        break;
+      case 9 : randomNumber1 ='Sword';
+        break;
+      case 10 : randomNumber1 ='Shield'; 
+}
+  switch (randomNumber2){
+      case 1 : randomNumber2 ='Cherry';
+        break;
+      case 2 : randomNumber2 ='King';
+        break;
+      case 3 : randomNumber2 ='Queen';
+        break;
+      case 4 : randomNumber2 ='Jack';
+        break;
+      case 5 : randomNumber2 ='Ten';
+        break;
+      case 6 : randomNumber2 ='Bar';
+        break;
+      case 7 : randomNumber2 ='Horseshoe';
+        break;
+      case 8 : randomNumber2 ='Joker';
+        break;
+      case 9 : randomNumber2 ='Sword';
+        break;
+      case 10 : randomNumber2 ='Shield'; 
+}
+  switch (randomNumber3){
+      case 1 : randomNumber3 ='Cherry';
+        break;
+      case 2 : randomNumber3 ='King';
+        break;
+      case 3 : randomNumber3 ='Queen';
+        break;
+      case 4 : randomNumber3 ='Jack';
+        break;
+      case 5 : randomNumber3 ='Ten';
+        break;
+      case 6 : randomNumber3 ='Bar';
+        break;
+      case 7 : randomNumber3 ='Horseshoe';
+        break;
+      case 8 : randomNumber3 ='Joker';
+        break;
+      case 9 : randomNumber3 ='Sword';
+        break;
+      case 10 : randomNumber3 ='Shield'; 
+}
+console.log(randomNumber1 +' '+ randomNumber2 +' '+ randomNumber3);
+
+if (randomNumber1 === 'Cherry'){
+  payout1 = bet *2
+  }
+if (randomNumber2 === 'Cherry'){
+  payout3 = bet *2
+  }
+if (randomNumber3 === 'Cherry'){
+  payout3 = bet *2
+  }
+
+if (randomNumber1 === 'Shield' && randomNumber2 === 'Shield' && randomNumber3 === 'Shield'){
+  payout4 = bet *3
+}
+if (randomNumber1 === 'Sword' && randomNumber2 === 'Sword' && randomNumber3 === 'Sword'){
+  payout4 = bet *4
+}
+if (randomNumber1 === 'Joker' && randomNumber2 === 'Joker' && randomNumber3 === 'Joker'){
+  payout4 = bet *100
+}
+if (randomNumber1 === 'Horseshoe' && randomNumber2 === 'Horseshoe' && randomNumber3 === 'Horseshoe'){
+  payout4 = bet *6
+}
+if (randomNumber1 === 'Bar' && randomNumber2 === 'Bar' && randomNumber3 === 'Bar'){
+  payout4 = bet *5
+}
+if (randomNumber1 === 'Ten' && randomNumber2 === 'Ten' && randomNumber3 === 'Ten'){
+  payout4 = bet *7
+}
+if (randomNumber1 === 'Jack' && randomNumber2 === 'Jack' && randomNumber3 === 'Jack'){
+  payout4 = bet *10
+}
+if (randomNumber1 === 'Queen' && randomNumber2 === 'Queen' && randomNumber3 === 'Queen'){
+  payout4 = bet *15
+}
+if (randomNumber1 === 'King' && randomNumber2 === 'King' && randomNumber3 === 'King'){
+  payout4 = bet *20
+}  
+  
+winnings = (payout1 + payout2 + payout3 +payout4);
+
+if (winnings > 0){
+  console.log(`You win $${winnings}!`);
+}
+else {console.log('Sorry, please play again')};
+}
+else {console.log('Please enter credits.')}
+  
+console.log('88888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888')
