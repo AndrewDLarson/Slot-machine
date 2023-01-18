@@ -1,3 +1,5 @@
+//New goal: add in functions to clean up the work.
+
 console.log('8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888')
 let bet = 0;
 let randomNumber1 = Math.floor(Math.random()*10)+1;
